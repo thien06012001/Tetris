@@ -165,6 +165,11 @@ public class Shape {
 	public void rotateShape()
 	{
 		
+		if(collision) {
+			return;
+		}
+		
+		
 		int[][] rotatedShape = null;
 		
 		rotatedShape = transposeMatrix(coords);
