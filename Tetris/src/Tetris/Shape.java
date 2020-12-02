@@ -164,7 +164,6 @@ public class Shape {
 	
 	public void rotateShape()
 	{
-		
 		if(collision) {
 			return;
 		}
